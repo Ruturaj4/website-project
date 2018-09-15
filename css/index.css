@@ -270,16 +270,16 @@ header .header-projects {
 		width: calc(44%) !important;
 	}
 	.index-boxlink-two {
-		width: calc(25% - 20px) !important;
+		width: calc(25%) !important;
 	}
 	.index-boxlink-three {
-		width: calc(25% - 20px) !important;
+		max-width: calc(25%) !important;
 	}
 	.index-boxlink-four {
-		width: calc(25% - 20px) !important;
+		width: calc(25%) !important;
 	}
 	.index-boxlink-five {
-		width: calc(70% - 10px) !important;
+		width: calc(71%) !important;
 	}
 }
 

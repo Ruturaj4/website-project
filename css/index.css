@@ -283,6 +283,107 @@ header .header-projects {
 	}
 }
 
+/* This is my projects section */
+
+.projects-links {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.projects-links h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	color: #111;
+	text-transform: uppercase;
+}
+
+.projects-links .wrapper div {
+	float: left;
+	width: 230px;
+	height: 230px;
+	margin: 20px 10px 0px;
+	background-color: #e3e3e3;
+}
+
+.projects-links .wrapper p {
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 45%;
+	font-size: 20px;
+	font-weight: 600;
+	color: #111;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.projects-contact .wrapper {
+	background-color: #e3e3e3;
+	height: 180px;
+}
+
+.projects-contact h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	padding-top: 3%;
+	font-weight: 600;
+	color: #111;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.projects-contact img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 40px;
+}
+
+.projects-contact h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 100;
+	text-align: center;
+	color: #111;
+}
+
+@media only screen and (max-width: 1000px){
+	.projects-links .wrapper div {
+		margin: 16px 16px 0px;
+		width: calc(100% - 31px);
+		height: 100px;
+		background-color: #f2f2f2;
+	}
+
+	.projects-links h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 24px;
+		font-weight: 100;
+		line-height: 100px;
+		color: #111;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.projects-links .wrapper p {
+		font-family: 'Open Sans', sans-serif;
+		padding-top: 10%;
+		font-size: 20px;
+		font-weight: 600;
+		color: #111;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.projects-contact h2{
+		padding-top: 7%;
+	}
+
+	@media only screen and (max-width: 1000px) and (min-width: 600px){
+		.projects-links .wrapper p {
+			padding-top: 5%;
+		}
+	}
+}
+
 /*This is my footer*/
 
 footer {

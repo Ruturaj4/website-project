@@ -133,6 +133,11 @@ header .header-branding {
 	padding: 20px 0px;
 }
 
+/*Effects*/
+header .header-branding:hover {
+	color: #8c0e0e;
+}
+
 header nav ul {
 	display: block;
 	margin: 0 auto;
@@ -382,6 +387,45 @@ header .header-projects {
 			padding-top: 5%;
 		}
 	}
+}
+
+/*This is the project page*/
+
+.wrapper .projects-header {
+	width: 100%;
+	margin: 40px 0px;
+	/*Using flexbox*/
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.wrapper .projects-header h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 100;
+	color: #111;
+	text-transform: uppercase;
+}
+
+.wrapper .projects-article {
+	margin: 30px 0px;
+}
+
+.wrapper .projects-article p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	color: #111;
+}
+
+.wrapper .projects-article ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	line-height: 24px;
+	color: #111;
 }
 
 /*This is my footer*/

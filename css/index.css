@@ -135,7 +135,8 @@ header .header-branding {
 
 /*Effects*/
 header .header-branding:hover {
-	color: #8c0e0e;
+	transition-duration: 0.4s;
+	color: #d11010;
 }
 
 header nav ul {
@@ -288,7 +289,57 @@ header .header-projects {
 	}
 }
 
-/* This is my projects section */
+/*Effects - Boxes*/
+
+.index-boxlink-one:hover {
+	transition-duration: 0.2s;
+	background-color: #999999;
+}
+.index-boxlink-two:hover {
+	transition-duration: 0.2s;
+	background-color: #999999;
+}
+.index-boxlink-three:hover {
+	transition-duration: 0.2s;
+	background-color: #999999;
+}
+.index-boxlink-four:hover {
+	transition-duration: 0.2s;
+	background-color: #999999;
+}
+.index-boxlink-five:hover {
+	transition-duration: 0.2s;
+	background-color: #999999;
+}
+
+/*Effects - text*/
+.index-boxlink-one:hover h3{
+	transition-duration: 0.5s;
+	color: white;
+	background-color: #999999;
+}
+.index-boxlink-two:hover h3{
+	transition-duration: 0.5s;
+	color: white;
+	background-color: #999999;
+}
+.index-boxlink-three:hover h3{
+	transition-duration: 0.5s;
+	color: white;
+	background-color: #999999;
+}
+.index-boxlink-four:hover h3{
+	transition-duration: 0.5s;
+	color: white;
+	background-color: #999999;
+}
+.index-boxlink-five:hover h3{
+	transition-duration: 0.5s;
+	color: white;
+	background-color: #999999;
+}
+
+/* This is the all projects section */
 
 .projects-links {
 	overflow: hidden;
@@ -319,6 +370,17 @@ header .header-projects {
 	color: #111;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+/*Effects*/
+
+.projects-links .wrapper div:hover{
+	transition-duration: 1s;
+	background-color: #999999;
+}
+.projects-links .wrapper div:hover p{
+	transition-duration: 0.5s;
+	color: white;
 }
 
 .projects-contact .wrapper {
